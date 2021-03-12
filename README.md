@@ -1,5 +1,4 @@
-# fantabos.co
-
+# DonHack
 Literally the most powerful minecraft cheat ever made, in a light and public release.
 
 Updated with mods we think would be good for public use.
@@ -8,10 +7,10 @@ In case you cannot read, this is a fork of fr1kin's ForgeHax. Since the 1.12.2 b
 
 ### Maintaining
 
-TheAlphaEpsilon, OverFloyd, FraazT0 and Fleyr have contribuited on the dev repo and will help keep this updated.
+MikelAx7 is the only dev of DonHack
 
 ### Discord support
-You can join a very Work-In-Progress discord server [HERE](https://discord.gg/8QjDRRPyeh). No guarantee is made about server being _not dead_.
+nah
 
 ## Installing
 
@@ -78,3 +77,6 @@ To build, run `./gradlew build`, jar will be in `build/libs`:
 ## Why are you making this public
 
 Because I can. I used to have quite exclusive haccs but now everyone seems to have them. I want to share the way I did things.
+
+Hail DonFuer
+apologies to fr1kin and the fantabos devs
