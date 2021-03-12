@@ -8,6 +8,7 @@ In case you cannot read, this is a fork of fr1kin's ForgeHax. Since the 1.12.2 b
 ### Maintaining
 
 MikelAx7 is the only dev of DonHack
+man stfu dragonworm will go beast mode
 
 ### Discord support
 nah
