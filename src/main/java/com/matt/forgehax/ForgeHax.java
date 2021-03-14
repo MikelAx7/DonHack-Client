@@ -1,4 +1,4 @@
-package com.matt.forgehax;
+package com.mikelax7.donhack;
 
 import static com.matt.forgehax.Helper.getFileManager;
 import static com.matt.forgehax.Helper.getModManager;
@@ -13,7 +13,7 @@ import net.minecraftforge.fml.relauncher.Side;
 @Mod(modid = ForgeHax.MOD_ID, clientSideOnly = true)
 public class ForgeHax {
   
-  public static final String MOD_ID = "forgehax";
+  public static final String MOD_ID = "donhack";
   public static final String MOD_VERSION = ForgeHaxProperties.getVersion();
   
   static {
@@ -21,13 +21,13 @@ public class ForgeHax {
     // NOTE: if you ever change the package name make sure this
     // is updated or mods will not load anymore
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    getModManager().searchPackage("com.matt.forgehax.mods.*");
+    getModManager().searchPackage("com.mikelax7.donhack.mods.*");
     getModManager().searchPluginDirectory(getFileManager().getBaseResolve("plugins"));
   }
   
   public static String getWelcomeMessage() {
     return String
-        .format("Running ForgeHax v%s\n Type .help in chat for command instructions", MOD_VERSION);
+        .format("Running DonHack v%s\n Type .help in chat for command instructions", MOD_VERSION);
   }
   
   @Mod.EventHandler
