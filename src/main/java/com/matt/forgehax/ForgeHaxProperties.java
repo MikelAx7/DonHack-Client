@@ -7,7 +7,7 @@ import java.util.Properties;
 /**
  * Created on 3/13/2021
  */
-public class forgehaxProperties {
+public class ForgeHaxProperties {
   
   private static final Properties CONFIG_PROPERTIES = new Properties();
   
