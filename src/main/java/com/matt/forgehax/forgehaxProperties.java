@@ -1,4 +1,4 @@
-package com.mikelax7.donhack;
+package com.matt.forgehax;
 
 import com.google.common.base.Strings;
 import java.io.InputStream;
@@ -7,14 +7,14 @@ import java.util.Properties;
 /**
  * Created on 3/13/2021
  */
-public class DonHackProperties {
+public class forgehaxProperties {
   
   private static final Properties CONFIG_PROPERTIES = new Properties();
   
   static {
     InputStream input = null;
     try {
-      input = DonHackProperties.class.getClassLoader().getResourceAsStream("config.properties");
+      input = ForgeHaxProperties.class.getClassLoader().getResourceAsStream("config.properties");
       CONFIG_PROPERTIES.load(input);
     } catch (Throwable t) {
     } finally {

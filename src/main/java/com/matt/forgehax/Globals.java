@@ -1,7 +1,7 @@
-package com.mikelax7.donhack;
+package com.matt.forgehax;
 
-import com.mikelax7.donhack.util.command.Command;
-import com.mikelax7.donhack.util.command.CommandGlobal;
+import com.matt.forgehax.util.command.Command;
+import com.matt.forgehax.util.command.CommandGlobal;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.client.FMLClientHandler;
 import org.apache.logging.log4j.LogManager;

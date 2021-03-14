@@ -1,4 +1,4 @@
-package com.mikelax7.donhack;
+package com.matt.forgehax;
 
 import static com.matt.forgehax.Helper.getFileManager;
 import static com.matt.forgehax.Helper.getModManager;
@@ -21,7 +21,7 @@ public class ForgeHax {
     // NOTE: if you ever change the package name make sure this
     // is updated or mods will not load anymore
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    getModManager().searchPackage("com.mikelax7.donhack.mods.*");
+    getModManager().searchPackage("com.matt.forgehax.mods.*");
     getModManager().searchPluginDirectory(getFileManager().getBaseResolve("plugins"));
   }
   
