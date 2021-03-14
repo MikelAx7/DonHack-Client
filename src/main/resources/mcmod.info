@@ -1,15 +1,15 @@
 [
     {
-      "modid": "forgehax",
-      "name": "ForgeHax",
-      "description": "Hax 4 forge",
+      "modid": "donhack",
+      "name": "DonHack",
+      "description": "The official DonFuerian hacked client",
       "version": "${version}",
       "mcversion": "${mcversion}",
-      "url": "https://github.com/fr1kin/ForgeHax",
+      "url": "https://www.donfuer.com",
       "updateUrl": "",
-      "authorList": ["fr1kin", "Babbaj", "Chunkr"],
-      "credits": "get rekt",
-      "logoFile": "",
+      "authorList": ["MikelAx7"],
+      "credits": "HAIL DONFUER",
+      "logoFile": "https://i.postimg.cc/0QTH913F/Donfuer-Coat-of-Arms.png",
       "screenshots": [],
       "dependencies": []
     }
