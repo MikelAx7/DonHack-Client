@@ -1,4 +1,4 @@
-package com.mikelax7.donhack;
+package com.matt.forgehax;
 
 import static com.matt.forgehax.Helper.getFileManager;
 import static com.matt.forgehax.Helper.getModManager;
