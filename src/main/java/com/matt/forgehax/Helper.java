@@ -1,13 +1,13 @@
-package com.mikelax7.donhack;
+package com.matt.forgehax;
 
 import com.google.common.base.Strings;
 import com.google.common.base.Throwables;
-import com.mikelax7.donhack.gui.PromptGui;
-import com.mikelax7.donhack.gui.PromptGui.ClientMode;
-import com.mikelax7.donhack.mods.BetterChat;
-import com.mikelax7.donhack.util.FileManager;
-import com.mikelax7.donhack.util.command.CommandGlobal;
-import com.mikelax7.donhack.util.mod.loader.ModManager;
+import com.matt.forgehax.gui.PromptGui;
+import com.matt.forgehax.gui.PromptGui.ClientMode;
+import com.matt.forgehax.mods.BetterChat;
+import com.matt.forgehax.util.FileManager;
+import com.matt.forgehax.util.command.CommandGlobal;
+import com.matt.forgehax.util.mod.loader.ModManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.gui.GuiScreen;
