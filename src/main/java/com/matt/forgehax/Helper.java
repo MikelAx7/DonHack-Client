@@ -136,7 +136,7 @@ public class Helper implements Globals {
   }
 
   public static void outputMessage(ITextComponent text) {
-    outputMessage(text, ClientMode.DONHACK);
+    outputMessage(text, ClientMode.FORGEHAX);
   }
 
   public static void outputMessage(ITextComponent text, ClientMode target) {
