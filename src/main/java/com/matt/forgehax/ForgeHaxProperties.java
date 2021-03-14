@@ -1,20 +1,20 @@
-package com.matt.forgehax;
+package com.mikelax7.donhack;
 
 import com.google.common.base.Strings;
 import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * Created on 6/27/2017 by fr1kin
+ * Created on 3/13/2021
  */
-public class ForgeHaxProperties {
+public class DonHackProperties {
   
   private static final Properties CONFIG_PROPERTIES = new Properties();
   
   static {
     InputStream input = null;
     try {
-      input = ForgeHaxProperties.class.getClassLoader().getResourceAsStream("config.properties");
+      input = DonHackProperties.class.getClassLoader().getResourceAsStream("config.properties");
       CONFIG_PROPERTIES.load(input);
     } catch (Throwable t) {
     } finally {
@@ -32,27 +32,27 @@ public class ForgeHaxProperties {
   }
   
   public static String getVersion() {
-    return Strings.nullToEmpty(getConfigProperties().getProperty("forgehax.version"));
+    return Strings.nullToEmpty(getConfigProperties().getProperty("donhack.version"));
   }
   
   public static String getMcVersion() {
-    return Strings.nullToEmpty(getConfigProperties().getProperty("forgehax.mc.version"));
+    return Strings.nullToEmpty(getConfigProperties().getProperty("donhack.mc.version"));
   }
   
   public static String getForgeVersion() {
-    return Strings.nullToEmpty(getConfigProperties().getProperty("forgehax.forge.version"));
+    return Strings.nullToEmpty(getConfigProperties().getProperty("donhack.forge.version"));
   }
   
   public static String getMcpVersion() {
-    return Strings.nullToEmpty(getConfigProperties().getProperty("forgehax.mcp.version"));
+    return Strings.nullToEmpty(getConfigProperties().getProperty("donhack.mcp.version"));
   }
   
   public static String getMcpChannel() {
-    return Strings.nullToEmpty(getConfigProperties().getProperty("forgehax.mcp.channel"));
+    return Strings.nullToEmpty(getConfigProperties().getProperty("donhack.mcp.channel"));
   }
   
   public static String getMcpMapping() {
-    return Strings.nullToEmpty(getConfigProperties().getProperty("forgehax.mcp.mapping"));
+    return Strings.nullToEmpty(getConfigProperties().getProperty("donhack.mcp.mapping"));
   }
   
   public static String getMcpMappingUrl() {
