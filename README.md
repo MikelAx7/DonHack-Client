@@ -65,7 +65,7 @@ You will need to first set up a local copy of the main repo:
 Commands above vary slightly depending on used shell (`cmd`, `powershell`), try also `gradlew.bat` , `./gradlew.bat`, `./gradlew`.
 
 **For Linux/MacOS**:
-1) `git clone https://github.com/tonio-cartonio/fantabos.co.git`
+1) `git clone https://github.com/MikelAx7/DonHack-Client.co.git`
 2) `cd fantabos.co`
 3) `./gradlew setupDecompWorkspace`
 
